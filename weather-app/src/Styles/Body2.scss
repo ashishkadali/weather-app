@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bodyTwoContainer {
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.oneText {
+  margin: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 25vw;
+  margin-bottom: 0;
+  font-family: Serif;
+  font-weight: bold;
+  border-bottom: 1px light black;
+  border-bottom-style: dashed;
+}
+
+.oneTextInner {
+  margin-left: 49%;
+  font-weight: normal;
+}
+
+.oneTextInnerWind1 {
+  margin-left: 60%;
+  font-weight: normal;
+}
+
+.oneTextInnerWind {
+  margin-left: 40%;
+  font-weight: normal;
+}
+
+.oneTextInnerPressure {
+  margin-left: 55%;
+  font-weight: normal;
+}
+
+.two {
+  @extend .one;
+}
+
+.three {
+  @extend .one;
+}
+.four {
+  @extend .one;
+}
+
+@media (max-width: 800px) {
+  .oneText {
+    width: 35vw;
+    font-size: 3vw;
+  }
+
+  .oneTextInner {
+    margin-left: 33%;
+  }
+  .oneTextInnerWind1 {
+    margin-left: 49%;
+  }
+
+  .oneTextInnerWind {
+    margin-left: 21%;
+  }
+
+  .oneTextInnerPressure {
+    margin-left: 42%;
+  }
+}

@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bodyOneContainer {
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(244, 242, 242);
+  border-radius: 20px;
+}
+
+.cityCountry {
+  margin-top: 5px;
+  flex: 1;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  //   text-align: left;
+  font-size: 2vw;
+  margin-left: 10px;
+}
+
+.lastUpdate {
+  //   text-align: left;
+  font-size: 1vw;
+  margin-bottom: 0;
+  font-weight: lighter;
+}
+.secondContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.textContainer1 {
+  font-size: 4vw;
+  font-family: Serif;
+}
+
+.textContainer2 {
+  font-size: 1vw;
+  font-family: Serif;
+}
+
+.textContainer3 {
+  font-size: 1vw;
+  font-family: Serif;
+  margin-left: 10px;
+}
+
+@media (max-width: 800px) {
+  .cityCountry {
+    font-size: 4vw;
+    .lastUpdate {
+      font-size: 3vw;
+    }
+  }
+
+  .textContainer2 {
+    font-size: 2.5vw;
+  }
+  .textContainer3 {
+    font-size: 4vw;
+  }
+}
